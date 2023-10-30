@@ -1,4 +1,4 @@
-# Nest.js Notes and README
+# Nest.js Notes
 
 This README provides an overview of essential concepts and tools in Nest.js, along with some conventions to follow when working with this framework. Additionally, a command to run a Nest.js application is included.
 
