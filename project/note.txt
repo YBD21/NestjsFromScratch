@@ -11,3 +11,8 @@ Project Structure :
 
 4. Message Repository : 
    > Access a database   
+
+
+nest generate module messages
+ 
+nest generate controller messages/messages --flat
