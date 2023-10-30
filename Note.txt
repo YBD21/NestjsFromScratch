@@ -1,0 +1,7 @@
+Nest JS Tools :
+
+1. Pipe : Validate data contained in the request
+2. Guard : Make sure the user is authenticated
+3. Controller : Route the request to a particular function
+4. Service : Run some business logic
+5. Repository : Access a database
