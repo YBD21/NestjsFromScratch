@@ -1,7 +1,12 @@
+Parts of Nest : 
+1. Modules : Groups together code 
+2. Filters : Validates incomming data
+3. Interceptors : Adds extra logic to incomming requests or outgoing responses 
+
 Nest JS Tools :
 
-1. Pipe : Validate data contained in the request
-2. Guard : Make sure the user is authenticated
-3. Controller : Route the request to a particular function
-4. Service : Run some business logic
-5. Repository : Access a database
+4. Pipe : Validate data contained in the request
+5. Guard : Make sure the user is authenticated
+6. Controller : Route the request to a particular function
+7. Service : Run some business logic
+8. Repository : Access a database
