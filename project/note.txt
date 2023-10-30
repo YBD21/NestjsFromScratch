@@ -13,6 +13,19 @@ Project Structure :
    > Access a database   
 
 
+Nest Generate Command : 
 nest generate module messages
  
 nest generate controller messages/messages --flat
+
+
+Setting Up Automatic Validation 
+
+1. Tell Nest to use global Validation.
+
+2. Create a class that describes the different properties that the request body should have. 
+Note : Data Transfer Object in short - DTO 
+
+3. Add validation rules to the class.
+
+4. Apply that class to the request handler.
