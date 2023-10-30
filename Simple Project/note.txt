@@ -1,0 +1,13 @@
+Project Structure : 
+
+1. Pipe : 
+   > Validate data contained in the request
+
+2. MessagesController : 
+   > Route the request to a particular function 
+
+3. MessagesService :
+   > Run some business logic
+
+4. Message Repository : 
+   > Access a database   
