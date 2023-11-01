@@ -29,3 +29,20 @@ Note : Data Transfer Object in short - DTO
 3. Add validation rules to the class.
 
 4. Apply that class to the request handler.
+
+
+Services : 
+
+its a class 
+
+place to put any business logic 
+
+uses one or more Repository to find or store data
+
+Repository :
+
+its a class 
+
+place to put storage-related logic 
+
+Usually ends up being a TypeORM entity, a Mongoose schema, or similar 
