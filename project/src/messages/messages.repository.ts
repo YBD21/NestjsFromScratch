@@ -16,7 +16,19 @@ export class MessageRepository {
     return messages[id];
   }
 
-  async findAll() {}
+  async findAll() {
+    const contents = await readFile(this.filePath, 'utf8');
+    const messages = JSON.parse(contents);
+    return messages;
+  }
 
-  async create(message: string) {}
+  async create(content: string) {
+    const contents = await readFile(this.filePath, 'utf8');
+    const messages = JSON.parse(contents);
+
+    const id = Math.floor(Math.random() * 999); // generate random id
+    messages[id] = { id, content };
+
+    await writeFile(this.filePath, JSON.stringify(messages));
+  }
 }
