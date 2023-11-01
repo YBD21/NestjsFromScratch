@@ -11,4 +11,4 @@ Content-Type: application/json
 }
 
 ### Get message by Id
-GET http://localhost:5000/messages/12
+GET http://localhost:5000/messages/931
