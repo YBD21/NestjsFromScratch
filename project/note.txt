@@ -46,3 +46,20 @@ its a class
 place to put storage-related logic 
 
 Usually ends up being a TypeORM entity, a Mongoose schema, or similar 
+
+
+Dependency Injection -- Why does it exist in Nest Js.
+
+Inversion of Control Principle :
+
+1. Classes should not create instances of its dependencies on its own.
+
+
+
+DI Container Flow :
+
+1. At startup , register all calsses with the container.
+2. Container will figure out what each dependency each class has.
+3. We then ask the container to create an instance of a class for us.
+4. Container creates all required dependencies and give us the instance.
+5. Container will hold onto the created dependency instance and reuse them if needed.
